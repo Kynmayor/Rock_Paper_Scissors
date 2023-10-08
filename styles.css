@@ -1,0 +1,71 @@
+body {
+    background-color: black;
+    color:white;
+}
+
+main {
+    margin: auto;
+    margin: 2px solid black;
+    text-align: center;
+}
+
+label {
+    /* display: inline-block;
+    margin-right: 30px;
+     */
+}
+
+.reset {
+    display: block;
+    margin: auto;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 20px;
+    background-color: transparent;
+    border: 3px solid goldenrod;
+    color: whitesmoke;
+    margin-bottom: 15px;
+}
+
+
+button:hover {
+    cursor: pointer;
+}
+
+img {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+}
+
+.move-button {
+    background-color: transparent;
+    border: 3px solid goldenrod;
+    border-radius: 50%;
+    padding: 1rem;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.imoji {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.scores {
+    height: 50px;
+    width: 100px;
+    margin: 40px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
